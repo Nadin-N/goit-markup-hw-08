@@ -19,13 +19,13 @@
 
 .menu-container {
 	position: fixed;
-	z-index: 1;
+	z-index: 1000;
 	top: 0;
 	left: 0;
 	width: 100vw;
 	height: 100vh;
 	background-color: var(--primary-background-color);
-	height: 796px;
+	// height: 796px;
 	padding: 10px 15px 48px 40px;
 	overflow: auto;
 	display: flex;

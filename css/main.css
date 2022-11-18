@@ -238,7 +238,7 @@ body {
 }
 
 .mobile-menu-link {
-  display: block;
+  display: inline-block;
   font-size: 40px;
   line-height: 1.18;
   letter-spacing: 0.02em;
@@ -256,18 +256,20 @@ body {
   letter-spacing: 0.02em;
 }
 
-.mobile-tel {
+.mobile-tel a {
+  display: inline-block;
   font-size: 34px;
   color: var(--accent-color);
   margin-bottom: 32px;
 }
 @media (max-width: 479px) {
-  .mobile-tel {
+  .mobile-tel a {
     font-size: 24px;
   }
 }
 
-.mobile-mail {
+.mobile-mail a {
+  display: inline-block;
   font-size: 24px;
   color: var(--primary-text-color);
   margin-bottom: 64px;
@@ -297,6 +299,10 @@ body {
   width: 1px;
   height: 22px;
   background-color: rgba(33, 33, 33, 0.2);
+}
+
+.menu-close-icon:hover {
+  fill: var(--accent-color);
 }
 
 .section-title {

@@ -776,6 +776,7 @@ body {
 @media screen and (min-width: 1600px) {
   .work {
     display: block;
+    padding-top: 0;
   }
 }
 

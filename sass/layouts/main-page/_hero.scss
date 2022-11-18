@@ -11,29 +11,35 @@
 	background-color: #c4c4c4;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
-	background-image: var(--gradient), url("../../../image/hero/hero-mob-480@1x.jpg");
+	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+		url("../../../image/hero/hero-mob-480@1x.jpg");
 	@media (min-device-pixel-ratio: 2),
 		(-webkit-min-device-pixel-ratio: 2),
 		(min-resolution: 192dpi),
 		(min-resolution: 2dppx) {
-		background-image: var(--gradient), url("../../../image/hero/hero-mob-480@2x.jpg");
+		background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url("../../../image/hero/hero-mob-480@2x.jpg");
 	}
 	@media screen and (min-width: 481px) {
-		background-image: var(--gradient), url("../../../image/hero/hero-tab-768@1x.jpg");
+		background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url("../../../image/hero/hero-tab-768@1x.jpg");
 		@media (min-device-pixel-ratio: 2),
 			(-webkit-min-device-pixel-ratio: 2),
 			(min-resolution: 192dpi),
 			(min-resolution: 2dppx) {
-			background-image: var(--gradient), url("../../../image/hero/hero-tab-768@2x.jpg");
+			background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+				url("../../../image/hero/hero-tab-768@2x.jpg");
 		}
 	}
 	@media screen and (min-width: 769px) {
-		background-image: var(--gradient), url("../../../image/hero/hero-desk-1600@1x.jpg");
+		background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url("../../../image/hero/hero-desk-1600@1x.jpg");
 		@media (min-device-pixel-ratio: 2),
 			(-webkit-min-device-pixel-ratio: 2),
 			(min-resolution: 192dpi),
 			(min-resolution: 2dppx) {
-			background-image: var(--gradient), url("../../../image/hero/hero-desk-1600@2x.jpg");
+			background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+				url("../../../image/hero/hero-desk-1600@2x.jpg");
 		}
 		@include mq(desk) {
 			height: 600px;

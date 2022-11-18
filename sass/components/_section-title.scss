@@ -1,0 +1,11 @@
+.section-title {
+	margin-bottom: 30px;
+	font-size: 28px;
+	text-align: center;
+	line-height: 1.17;
+
+	@include mq(desk) {
+		margin-bottom: 50px;
+		font-size: 36px;
+	}
+}

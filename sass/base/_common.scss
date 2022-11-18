@@ -1,0 +1,63 @@
+body {
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	background-color: var(--primary-background-color);
+	color: var(--primary-text-color);
+	overflow: auto;
+}
+
+.section {
+	padding: 60px 0;
+	@include mq(desk) {
+		padding: 94px 0;
+	}
+}
+
+.link {
+	transition-property: color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+}
+
+.section-title,
+.benefits__subtitle,
+.team-subtitle,
+.portfolio-title {
+	color: var(--primary-title-color);
+}
+
+.section-title,
+.benefits__subtitle,
+.portfolio-title {
+	font-weight: 700;
+}
+
+.social-icon,
+.header-icon,
+.order-close-icon,
+.order-input-icon,
+.order-check-icon {
+	transition-property: fill;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-submit-btn,
+.footer-subscription-btn {
+	min-width: 200px;
+	min-height: 50px;
+}
+
+.current {
+	color: var(--accent-color);
+}
+
+.no-scroll {
+	overflow: hidden;
+}

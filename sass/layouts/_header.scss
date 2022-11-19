@@ -22,6 +22,9 @@
 .menu-link {
 	position: relative;
 	color: var(--tertiary-text-color);
+	@include mq(tab) {
+		padding: 32px 0;
+	}
 }
 
 .menu-link.current {
@@ -34,7 +37,10 @@
 		width: 100%;
 		background: var(--accent-color);
 		border-radius: 2px;
-		transform: translateY(50%);
+		transform: translateY(70%);
+		@include mq(desk) {
+			transform: translateY(20%);
+		}
 	}
 }
 

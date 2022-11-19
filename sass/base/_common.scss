@@ -58,6 +58,10 @@ body {
 	color: var(--accent-color);
 }
 
+.mobile-menu-link.current {
+	color: var(--accent-color);
+}
+
 .no-scroll {
 	overflow: hidden;
 }

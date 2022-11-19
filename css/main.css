@@ -978,7 +978,7 @@ body {
   -moz-column-gap: 60px;
        column-gap: 60px;
 }
-@media (max-width: 1599px) {
+@media (max-width: 1199px) {
   .footer-container {
     text-align: center;
   }
@@ -993,7 +993,6 @@ body {
   .footer-container {
     -moz-column-gap: 70px;
          column-gap: 70px;
-    justify-content: start;
   }
 }
 
@@ -1027,6 +1026,7 @@ body {
   .footer-subscription {
     max-width: 1500px;
     width: auto;
+    margin-left: auto;
   }
 }
 
